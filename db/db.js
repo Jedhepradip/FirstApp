@@ -8,4 +8,5 @@ const db = mongoose.connect("mongodb+srv://pradip:pradip123@appnew.o1fi0ge.mongo
     console.log(err)
 })
 
+// comment added from testing purpus
 export default db;
