@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
+import dotenv from 'dotenv'
+dotenv.config()
 
-const db = mongoose.connect("mongodb+srv://pradip:pradip123@appnew.o1fi0ge.mongodb.net/?retryWrites=true&w=majority&appName=AppNew")
+const db = mongoose.connect(process.env.db)
+
 .then(()=>{
     console.log("Database Connected Successfully")
 })
