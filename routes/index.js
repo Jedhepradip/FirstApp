@@ -59,6 +59,7 @@ router.post("/home", async (req, res) => {
 export default router;
 
         // const name = req.body.name
+        // const phome = req.body.phome
         // const email = req.body.email
         // const password = req.body.password
         // const Cpassword = req.body.Cpassword
